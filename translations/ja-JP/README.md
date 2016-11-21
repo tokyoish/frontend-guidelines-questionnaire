@@ -1,48 +1,48 @@
 # フロントエンドガイドラインについてのアンケート
 A one-page questionnaire to help your team establish effective frontend guidelines, so that you can write consistent & cohesive code together.
-この1ページのアンケートは、あなたのチームが効果的なフロントエンドガイドラインをつくり一貫性とまとまりのあるコードを一緒に書けるようにする為のものです。
+この1ページのアンケートは、あなたのチームが効果的なフロントエンドガイドラインをつくり一貫性とまとまりのあるコードを共に書けるようにする為の手助けになるものです。
 
 ## HTML
-### HTML Principles
-- **What are some general principles your team should follow when writing HTML?** *(for example, authoring semantic HTML5 markup, accessibility, etc. See [these](http://www.yellowshoe.com.au/standards/#html) [resources](http://codeguide.co/#html) for [inspiration](http://manuals.gravitydept.com/code/html))*
+### HTMLの方針
+- **あなたのチームがHTMLを書く時に従うべき一般原則は何ですか？** *(例： セマンティックなHTML5マークアップを書く, アクセシビリティ, 等。 See [these](http://www.yellowshoe.com.au/standards/#html) [resources](http://codeguide.co/#html) for [inspiration](http://manuals.gravitydept.com/code/html))*
 
 
 ### HTML Tools
-- **Are you using an HTML preprocessor** *(such as [HAML](http://haml.info/), [Jade](http://jade-lang.com/), etc)*?
-- **Are you using a templating engine** *(such as [Mustache](https://mustache.github.io/), [Handlebars](http://handlebarsjs.com/), etc)*?
-- **Does your backend architecture influence the frontend markup in any way** (for example, WordPress will add `wp-paginate` to a class in your markup)? If so, can you highlight these conventions? 
+- **HTML プリプロセッサーを使用しますか？** *(例： [HAML](http://haml.info/), [Jade](http://jade-lang.com/), など)*?
+- **テンプレートエンジンを使用しますか？** *([Mustache](https://mustache.github.io/), [Handlebars](http://handlebarsjs.com/), など)*?
+- **バックエンドの構成はフロントエンドに影響しますか？** (例： WordPress はマークアップのクラスに`wp-paginate`を加える)? もしあれば, そうしたルールを強調できますか？
 
-### HTML Style
-- **Spaces or Tabs?**
-- **What does HTML commenting look like?** 
+### HTML 記述のスタイル
+- **スペースかタブか?**
+- **コメントルールはどういうものか？** 
 
 ---------------
 
 ## CSS 
 
-### CSS Principles
-- **What are some general principles your team should follow when writing CSS?** *(For example, modularity, avoiding long selector strings, etc. See [these](http://cssguidelin.es/) [resources](http://www.yellowshoe.com.au/standards/#css) [for](http://manuals.gravitydept.com/code/css) [inspiration](http://codeguide.co/#css))*
+### CSSの方針
+- **CSSを書く上でのあなたのチームでの基本方針はなんですか？** *(例, モジュール方式, 長いセレクターの禁止, 等。 参考： [these](http://cssguidelin.es/) [resources](http://www.yellowshoe.com.au/standards/#css) [for](http://manuals.gravitydept.com/code/css) [inspiration](http://codeguide.co/#css))*
 
-### CSS Methodology
-- **Is your team using a CSS methodology** *(such as [SMACSS](https://smacss.com/), [BEM](https://en.bem.info/method/), or [OOCSS](http://oocss.org/))*? If yes, where is the documentation for that methodology?
-- **Are you deviating from the methodology in any way?** If so, can you highlight these conventions?
+### CSSの方法論
+- **アナタのチームはCSSメソロジーを使用していますか？** *(例： [SMACSS](https://smacss.com/), [BEM](https://en.bem.info/method/), or [OOCSS](http://oocss.org/))*? 使用する場合, その方法論に関する文章はどこにありますか?
+- **その方法論から逸脱しした実装をしていますか？** その場合, その手法を説明することは可能ですか?
 
-### CSS Tools
-- **Is the team using a preprocessor** *(such as [Sass](http://sass-lang.com/) or [Less](http://lesscss.org/))*?
-- **What are the guidelines for using that preprocessor** *(check out [Sass Guidelines](https://sass-guidelin.es/) for inspiration)*?
-- **Are you using a CSS base** *(such as [Normalize](https://necolas.github.io/normalize.css/) or a [reset](http://meyerweb.com/eric/tools/css/reset/))*?
-- **Are you using any CSS postprocessors** *(such as [Prefixfree](https://leaverou.github.io/prefixfree/) or [Autoprefixer](https://github.com/postcss/autoprefixer))*?
-- **Are there specific CSS techniques you're utilizing** *(such as [critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/))*?
+### CSSツール
+- **プリプロセッサーを使用していますか？** *([Sass](http://sass-lang.com/) や [Less](http://lesscss.org/))*?
+- **プリプロセッサーを使用する上でのガイドラインはありますか** *([Sass Guidelines](https://sass-guidelin.es/) を参考にインスピレーションを受けて下さい)*?
+- **ベースCSSを使用していますか？** *(例： [Normalize](https://necolas.github.io/normalize.css/) や [reset](http://meyerweb.com/eric/tools/css/reset/))*?
+- **ポストプロフェッサーを使用していますか？** *(例： [Prefixfree](https://leaverou.github.io/prefixfree/) や [Autoprefixer](https://github.com/postcss/autoprefixer))*?
+- **その他、特殊なCSSテクニンクをしようしていますか？** *(例： [critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/))*?
 
-### CSS Frameworks
-- **Is the team using a framework** *(such as [Bootstrap](https://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/))*? If yes, where is the documentation for that framework?
-- **Are you deviating from the framework in any way?** If so, can you highlight these conventions?
+### CSS フレームワーク
+- **チームで使用しているCSSフレームワークはありますか** *(例： [Bootstrap](https://getbootstrap.com/) や [Foundation](http://foundation.zurb.com/))*? その場合, そのフレームワークの仕様書はどこにありますか？
+- **フレームワークから何かしら逸脱した実装はしていますか？** その手法を説明することは可能ですか?
 
-### CSS Style
-- **Spaces or Tabs?**
-- **Spacing around rules?**
-- **[Grouping](https://smacss.com/book/formatting#grouping) properties?**
-- **What does CSS commenting look like?** 
+### CSSのコーディングスタイルについて
+- **スペースかタブか？**
+- **CSSのルールにスペースを含めるか？**
+- **プロパティの[グルーピング](https://smacss.com/book/formatting#grouping) ルールはありますか?**
+- **コメント記述に関するルールはありますか?** 
 
 ---------------
 
